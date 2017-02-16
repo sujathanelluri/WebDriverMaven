@@ -16,7 +16,8 @@ public void donavigate(){
 		 driver.get("http://www.google.com");
 			
 	     driver.navigate().to("http://www.seleniumhq.org/"); 
-	        System.out.println(driver.getCurrentUrl());		 
+	        System.out.println(driver.getCurrentUrl());	
+	     System.out.println("Sample Program to PUSH code in to GIT hub");   
 	 }
 @AfterTest
 public void teardown(){
